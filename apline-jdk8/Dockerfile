@@ -1,6 +1,6 @@
 FROM alpine:3.10.2
 MAINTAINER yanpp@nfky.com
-ADD /home/software/jdk-8u261-linux-x64.tar.gz /usr/local
+ADD jdk-8u261-linux-x64.tar.gz /usr/local
 
 ##******************更换Alpine源为mirrors.ustc.edu.cn******************
 RUN echo http://mirrors.ustc.edu.cn/alpine/v3.7/main > /etc/apk/repositories && \
