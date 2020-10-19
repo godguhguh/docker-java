@@ -1,6 +1,6 @@
 FROM apline:latest
 MAINTAINER yanpp@nfky.com
-ADD jdk-8u261-linux-x64.tar.gz /usr/local
+ADD /home/software/jdk-8u261-linux-x64.tar.gz /usr/local
 
 ##******************更换Alpine源为mirrors.ustc.edu.cn******************
 RUN echo http://mirrors.ustc.edu.cn/alpine/v3.7/main > /etc/apk/repositories && \
