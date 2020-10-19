@@ -1,4 +1,4 @@
-FROM alpine:3.10.0
+FROM alpine:3.10.2
 MAINTAINER yanpp@nfky.com
 ADD jdk-8u261-linux-x64.tar.gz /usr/local
 
